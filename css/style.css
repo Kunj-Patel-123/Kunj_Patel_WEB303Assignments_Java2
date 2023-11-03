@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+html {
+    background-color: #C0C0C0;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #D3D3D3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 10px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.toggleclass {
+    list-style: none;
+    border: 1px solid lightgray;
+    padding: 0;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.list-tag {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2fe5e5;
+    margin-bottom: 1px;
+    height: 30px;
+    background-color: #9c6666;
+    border-radius: 10px;
+}
+
+.toggleclass li:last-child a {
+    border-bottom: none;
+}
+
+.list-content {
+    padding: 10px;
+    display: none;
+}
+
+.list-content img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.tab-list {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 10;
+}
+
+.tab-list li.active a {
+    color: #fff;
+    border-bottom: 1px solid gray;
+    background-color: #808080;
+    border-radius: 10px 10px 0 0;
+}
+
+.tab-list li {
+    display: inline-block;
+    margin-left: 1px;
+    margin-top: 5px;
+}
+
+.tab-list li a {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.tab {
+    color: #363636;
+    text-decoration: none;
+    display: block;
+    padding: 4px 30px;
+    border-radius: 10px;
+}
+
+.tab-content {
+    display: none;
+    margin-top: -1px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid;
+    margin-right: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.tab-content.active {
+    display: block;
+    margin-left: 40px;
+}
+
+#tab1 img {
+    width: 750px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(102, 96, 96, 0.2);
+}
+
+#opp {
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    background-color: #808080;
+    color: #fff;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    color: rgb(26, 26, 31)
+}
