@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Viewer Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/photoViewer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Kunj Patel</h1>
+    <!-- Toggle Gallery Buttons -->
+    <button id="open-gallery">Open Gallery</button>
+    <button id="close-gallery" style="display: none;">Close Gallery</button>
+
+    <!-- Photo Viewer -->
+    <div id="photo-viewer" style="display: none;">
+        <img class="main-photo" src="img/img1.jpeg" alt="Main Image">
+        <div class="photo">
+            <!-- Thumbnails -->
+            <a href="img/img1.jpeg" class="thumbnail" title="Image 1"><img src="img/img1.jpeg" alt="Thumbnail 1"></a>
+            <a href="img/img2.jpeg" class="thumbnail" title="Image 2"><img src="img/img2.jpeg" alt="Thumbnail 2"></a>
+            <a href="img/img3.jpeg" class="thumbnail" title="Image 3"><img src="img/img3.jpeg" alt="Thumbnail 3"></a>
+            <a href="img/img4.jpeg" class="thumbnail" title="Image 4"><img src="img/img4.jpeg" alt="Thumbnail 4"></a>
+        </div>
+    </div>
+
+    <!-- At the bottom of the page -->
+    <div id="image-credits">
+        <p>Image sources: <br>
+            <b>Image 1</b> - [https://www.bing.com/images/search?view=detailV2&ccid=u8iGMj%2fw&id=1B3B3DD90A4C702B0279A859B6CD332B488B04F3&thid=OIP.u8iGMj_wfSlRV-o19CPhIQHaE8&mediaurl=https%3a%2f%2flonelyplanetimages.imgix.net%2fa%2fg%2fhi%2ft%2fbbc886323ff07d295157ea35f423e121-gateway-of-india.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.bbc886323ff07d295157ea35f423e121%3frik%3d8wSLSCszzbZZqA%26pid%3dImgRaw%26r%3d0&exph=1667&expw=2500&q=mumbai&simid=608003460868809307&FORM=IRPRST&ck=D4FEE87F5424F69A1931835C0317AD48&selectedIndex=1&ajaxhist=0&ajaxserp=0], 
+           <br> <b>Image 2</b> - [https://www.bing.com/images/search?view=detailV2&ccid=JdW43x9y&id=03F12B9B712F8882C4BC760F3920558F7643ED07&thid=OIP.JdW43x9yIAMD9tNN016h3gHaE8&mediaurl=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F0e%2F16%2F23%2F3a%2Fview-of-gateway-of-india.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.25d5b8df1f72200303f6d34dd35ea1de%3Frik%3DB%252b1Ddo9VIDkPdg%26pid%3DImgRaw%26r%3D0&exph=367&expw=550&q=mumbai&simid=607989699802824865&form=IRPRST&ck=9136043650BE629B894DD02E8E807D2D&selectedindex=10&ajaxhist=0&ajaxserp=0&pivotparams=insightsToken%3Dccid_u8iGMj%252Fw*cp_D4FEE87F5424F69A1931835C0317AD48*mid_1B3B3DD90A4C702B0279A859B6CD332B488B04F3*simid_608003460868809307*thid_OIP.u8iGMj!_wfSlRV-o19CPhIQHaE8&vt=0&sim=11&iss=VSI&ajaxhist=0&ajaxserp=0], 
+           <br> <b>Image 3</b> - [https://www.bing.com/images/search?view=detailV2&ccid=CLlTSDYj&id=024A133214C827B80FBBF44D008AA8FAB6B01A33&thid=OIP.CLlTSDYjx-mtN8YBWTsbjgHaFB&mediaurl=https%3a%2f%2f2.bp.blogspot.com%2f-2EDA_dzR9pc%2fWgq29d4ozTI%2fAAAAAAAAALo%2f0IakSu63hT866msuCdG9mjqEiqUpxLeigCEwYBhgL%2fs1600%2fjunagadh.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.08b953483623c7e9ad37c601593b1b8e%3frik%3dMxqwtvqoigBN9A%26pid%3dImgRaw%26r%3d0&exph=1086&expw=1600&q=gujarat&simid=608052784267617098&FORM=IRPRST&ck=9ACC337732118E27B06B25931C726D1D&selectedIndex=0&ajaxhist=0&ajaxserp=0], 
+            <b>Image 4</b> - [https://www.bing.com/images/search?view=detailV2&ccid=U3Xe7u04&id=65F6D3E8302737E03FAB2672771DE19C03EAACF8&thid=OIP.U3Xe7u04vvFe2nhlDzvOqAHaE8&mediaurl=https%3a%2f%2fi1.wp.com%2fstatic.ionwebs.com%2fuploads%2f2019%2f08%2fSun-Temple-Complex-Modhera-Gujarat.jpg%3fresize%3d1024%252C683%26ssl%3d1&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.5375deeeed38bef15eda78650f3bcea8%3frik%3d%252bKzqA5zhHXdyJg%26pid%3dImgRaw%26r%3d0&exph=683&expw=1024&q=gujarat&simid=608021851914329918&FORM=IRPRST&ck=740AE65127A431977C6E43D1177DA02B&selectedIndex=10&ajaxhist=0&ajaxserp=0]</p>
+    </div>
+
+
+    <!-- JavaScript Files -->
+    <script src="js/photoViewer.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
