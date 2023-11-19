@@ -1,0 +1,51 @@
+[
+    {
+        "firstName": "Emily",
+        "lastName": "Brown",
+        "age": 25,
+        "occupation": "Artist",
+        "show": "YetAnotherShow"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Davis",
+        "age": 45,
+        "occupation": "Lawyer",
+        "show": "DifferentShow"
+    },
+    {
+        "firstName": "Sophia",
+        "lastName": "Miller",
+        "age": 32,
+        "occupation": "Manager",
+        "show": "SomeShow"
+    },
+    {
+        "firstName": "William",
+        "lastName": "Wilson",
+        "age": 27,
+        "occupation": "Developer",
+        "show": "NewShow"
+    },
+    {
+        "firstName": "Olivia",
+        "lastName": "Anderson",
+        "age": 33,
+        "occupation": "Architect",
+        "show": "LatestShow"
+    },
+    {
+        "firstName": "Liam",
+        "lastName": "Jones",
+        "age": 29,
+        "occupation": "Writer",
+        "show": "PopularShow"
+    },
+    {
+        "firstName": "Eva",
+        "lastName": "Garcia",
+        "age": 31,
+        "occupation": "Entrepreneur",
+        "show": "TopShow"
+    }
+]
