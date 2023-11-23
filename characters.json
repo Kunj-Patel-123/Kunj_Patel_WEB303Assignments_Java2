@@ -1,0 +1,54 @@
+[
+  {
+    "name": "John",
+    "surname": "Doe",
+    "age": 45,
+    "occupation": "Engineer",
+    "birthdate": "1978-02-14"
+  },
+
+  {
+    "name": "Mary",
+    "surname": "Johnson",
+    "age": 35,
+    "occupation": "Teacher",
+    "birthdate": "1988-09-30"
+  },
+  {
+    "name": "Robert",
+    "surname": "Williams",
+    "age": 28,
+    "occupation": "Artist",
+    "birthdate": "1995-05-12"
+  },
+  {
+    "name": "Emily",
+    "surname": "Davis",
+    "age": 42,
+    "occupation": "Doctor",
+    "birthdate": "1980-11-03"
+  },
+  {
+    "name": "Sophia",
+    "surname": "Anderson",
+    "age": 50,
+    "occupation": "CEO",
+    "birthdate": "1973-07-22"
+  },
+
+  {
+    "name": "William",
+    "surname": "Wilson",
+    "age": 38,
+    "occupation": "Writer",
+    "birthdate": "1985-03-17"
+  },
+
+  {
+    "name": "Emma",
+    "surname": "Brown",
+    "age": 29,
+    "occupation": "Photographer",
+    "birthdate": "1994-12-08"
+  }
+]
